@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+} 
+.container {
+    width: 80%;
+    margin: auto;
+}
+nav {
+    height:  70px;
+}
+nav .brooklyn,
+nav .home {
+    float: left;
+    height: 70px;
+}
+nav .brooklyn {
+    width: 50%;
+}
+.brooklyn img {
+    padding-top: 15px;
+    height: 45px;
+}
+nav .home {
+    width: 50%;
+}
+nav .menu li {
+    float: left;
+}
+nav .menu li a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 25px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    margin-left: 15px;
+    color: rgba(83, 82, 82, 1);
+    font-family: monospace;
+}
+nav .menu li a:hover {
+    color: rgb(238, 88, 18);
+}
+header .friend {
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 290px;
+    position: relative;
+}
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    padding-top: 70px;
+    padding-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span {
+    color: rgb(238, 88, 18);
+}
+.friend p {
+    color: white;
+    letter-spacing: 4px;
+    padding-top: 19px;
+    padding-left: 280px;
+}
+.main {
+    background-color: rgb(250, 250, 250);
+    margin-top: 15px;
+    width: 40%;
+    height: 270px;
+    float: left;
+}
+.paragraph1 {
+    text-transform: uppercase;
+    color: rgb(100, 100, 100);
+    padding-top: 40px;
+    padding-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main > h2 {
+    color: rgb(30, 30, 30);
+    padding-left: 35px;
+    padding-top: 10px;
+    border: 1px solid rgb(250, 250, 250);
+    width: 200px;
+    height: 100px;
+}
+.paragraph2 {
+    color: rgb(100, 100, 100);
+    padding-top: 10px;
+    padding-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(250, 250, 250);
+    width: 320px;
+    height: 90px;
+}
+.division1,
+.division2,
+.division3 {
+    float: left;    
+    height: 270px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 15px;
+    width: 20%;
+}
+h5 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ i {
+    color: rgb(238, 88, 18);
+    font-size: 3em;
+    margin-top: 90px;
+    margin-left: 35px;
+}
+.heading1 {
+    padding-left: 28px;
+}
+
